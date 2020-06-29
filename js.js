@@ -54,4 +54,48 @@ var takTerdefinisi;
 console.log(typeof(takTerdefinisi));
 //perbedaan undefined dan null dibahas pertemuan kedepan
 
+//function
+function fungsiJumlah(a,b){
+    return a+b;
+}
+var menjumlahkan = fungsiJumlah(5,6);
+console.log(menjumlahkan);
+//fungsi function
+//dapat menggunakan berkali-kali dengan hasil yang berbeda
+//how to invoke function
+function showDialog(){
+    return "I must be productive";
+}
+console.log(showDialog);
+console.log(showDialog());
+//local variable in function
+function multiplyFive(input){
+    var textHasil = "hasilnya adalah "
+    return textHasil+ input*5;
+}
+textHasil= "edit perubahan hasil " //tidak ada perubahan
+console.log(multiplyFive(5));
+var mengalikan = function(x,y){
+    return x*y;
+}
+console.log(mengalikan(5,6));
+
+//object
+//object is variable that contain many values
+//has property and method
+//example like a car
+//definiting object
+var car = {
+    name : "Brio",
+    roda : 4,
+    bensin: "Pertamax",
+    fullName : function(){
+        return "nama mobil adalah "+this.name+" dengan "+this.roda+" yang memakai "+this.bensin;
+    }//method
+};
+console.log(car);
+console.log(car.name);
+console.log(car["roda"]);//sama saja cara mengakses nya
+console.log(car.fullName());
+
 
