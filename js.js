@@ -53,6 +53,20 @@ console.log(typeof(kata));
 var takTerdefinisi;
 console.log(typeof(takTerdefinisi));
 //perbedaan undefined dan null dibahas pertemuan kedepan
+//string
+var text1 = "hello";
+var text2 = "world";
+//concenating
+var combineText1 = text1+text2;
+var combineText2 = text1+" "+text2;
+var combineText3 = `new ${text1+" "+text2}`;
+console.log(combineText1);
+console.log(combineText2);
+console.log(combineText3);
+//beberapa fungsi
+console.log(text1.toUpperCase());
+console.log(text1.charAt(2));
+
 
 //function
 function fungsiJumlah(a,b){
@@ -97,5 +111,9 @@ console.log(car);
 console.log(car.name);
 console.log(car["roda"]);//sama saja cara mengakses nya
 console.log(car.fullName());
+//date
+var date1 = new Date();
+date1.toString();
+console.log(date1);
 
 
