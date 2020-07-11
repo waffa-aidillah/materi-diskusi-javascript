@@ -83,3 +83,13 @@ if(suhu<50){
 }else{
     console.log("suhu diatas 50 derajat :(");
 }
+//else if
+//digunakan untuk conditional lebih dari 2
+var panjang = 100
+if(panjang>500){
+    console.log("wah panjang");
+}else if(panjang>200){
+    console.log("oh cukup sedang");
+}else{
+    console.log("ternyata pendek");
+}
