@@ -50,7 +50,7 @@ var panjangMobil = cars.length;
 var lastMotor = motors[motors.length-1];
 //menambah item di array
 //method push
-cars.push("lambo");
+cars.push("lamboghini");
 console.log(cars);
 console.log(cars.length);
 //metode pop
@@ -92,4 +92,19 @@ if(panjang>500){
     console.log("oh cukup sedang");
 }else{
     console.log("ternyata pendek");
+}
+//switch
+var lampu="merah";
+switch(lampu){
+    case "hijau":
+        console.log("boleh jalan");
+        break;
+    case "kuning":
+        console.log("harus hati-hati");
+        break;
+    case "merah":
+        console.log("harus berhenti");
+        break;
+    default:
+        console.log("eh ternyata lampunya mati");
 }
